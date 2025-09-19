@@ -1,2 +1,20 @@
-# github.com-Wiper15-PayGuard-git
-Building PayGuard: An AI agent that mints a Solana NFT as immutable proof when a salary is late. Using Mistral AI &amp; ElevenLabs. Seeking Python, Solana/Web3, and Frontend devs to win. Let's build!
+# PayGuard
+
+An AI agent that automatically mints a "Proof of Debt" NFT on the Solana blockchain when a salary payment is late. Built with Mistral AI, ElevenLabs, and Crossmint to create transparency and leverage for workers.
+
+## The Problem
+Millions of workers, especially in the private security sector, face delayed salaries with no recourse or proof.
+
+## The Solution
+PayGuard uses a multi-agent workflow to:
+1.  Record the debt immutably on the Solana blockchain.
+2.  Generate a verifiable "Proof of Debt" NFT via Crossmint.
+3.  Create professional follow-up communications using Mistral AI.
+4.  Provide audio updates via ElevenLabs for accessibility.
+
+## Tech Stack
+- Python (Flask)
+- Solana (Blockchain)
+- Crossmint (NFT Minting)
+- Mistral AI (Natural Language Processing)
+- ElevenLabs (Text-to-Speech)
