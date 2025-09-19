@@ -11,7 +11,7 @@ PayGuard uses a multi-agent workflow to:
 2.  Generate a verifiable "Proof of Debt" NFT via Crossmint.
 3.  Create professional follow-up communications using Mistral AI.
 4.  Provide audio updates via ElevenLabs for accessibility.
-5.  Ensure censorship-resistant operation by using Coral V1's decentralized AI network as a fallback.
+5.  Ensure censorship-resistant operation by using Coral V-1's decentralized AI network as a fallback.
 
 ## Tech Stack
 - Python (Flask)
@@ -19,4 +19,4 @@ PayGuard uses a multi-agent workflow to:
 - Crossmint (NFT Minting)
 - Mistral AI (Natural Language Processing)
 - ElevenLabs (Text-to-Speech)
-- Coral V1 (Decentralized AI Inference)
+- Coral V-1 (Decentralized AI Inference)
