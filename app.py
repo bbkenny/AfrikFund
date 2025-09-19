@@ -1,5 +1,9 @@
 # app.py
+import streamlit as st# app.py
 import streamlit as st
+# Add these imports after the existing streamlit import
+from agents.blockchain_agent import record_debt
+from agents.nft_agent import mint_nft
 
 # Set page configuration
 st.set_page_config(
@@ -37,14 +41,18 @@ if submitted:
         st.error("Please fill in all required fields (*)")
     else:
         # Show loading spinner while processing
-        with st.spinner("Generating immutable proof on Solana blockchain..."):
-            # Simulate agent calls (will be replaced with real functions)
-            # TODO: Replace with actual blockchain_agent.record_debt()
-            tx_id = "Tx1234567890abcdef"  # Simulated transaction ID
-            
-            # TODO: Replace with actual nft_agent.mint_nft()
-            nft_id = "NFT-9876543210"  # Simulated NFT ID
-            
+        with # Use the simulated agents
+debt_details = {
+    "employer": employer_name,
+    "employee_email": employee_email,
+    "employee_wallet": employee_wallet,
+    "amount": amount_owed,
+    "due_date": str(due_date),
+    "description": description
+}
+
+tx_id = record_debt(debt_details)
+nft_id = mint_nft(tx_id, employee_email)
             # Display results
             st.success("✅ Proof of Debt successfully generated!")
             
