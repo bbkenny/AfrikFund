@@ -1,0 +1,7 @@
+flask
+solana
+solders
+python-dotenv
+requests
+elevenlabs
+base58
