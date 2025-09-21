@@ -300,7 +300,7 @@ PayGuard Automated System
         try:
             print("🎵 Generating audio version...")
             
-            audio_response = self.elevenlabs_client.generate(
+            audio_response = self.elevenlabs_client.text_to_speech(
                 text=text_message,
                 voice="Bella",
                 model="eleven_monolingual_v1"
